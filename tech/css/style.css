@@ -1,0 +1,74 @@
+body{
+    background: url(https://images.unsplash.com/3/doctype-hi-res.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+    height: 100%;
+    
+}
+.fa{
+    font-size: larger;
+}
+
+.size{
+    padding: padding: 0px 0px 0px 2px;
+    font-size: 100px;
+}
+
+.fa-stack-1x{
+    margin: 8px 0px 0px 0px;
+}
+
+.btn{
+    padding: 5px 25px;
+    font-size: 18px;
+}
+.action{
+    text-align: center;
+}
+
+.button{
+    padding: 0px 0px 0px 2px;
+}
+
+.fb{
+    background-color: #4267b2;
+   padding: 2px 5px;
+    
+}
+
+.fb:hover{
+    background: #8b9dc3;
+}
+
+.dropdown-menu>li>a{
+    padding: 8px 46px;
+}
+
+.colour{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.go{
+    background-color: #dc473a;
+    padding: 2px 10px;
+    margin: 0px 5px;
+}
+
+.go:hover{
+    background-color: #EF9A9A;
+}
+
+@media(max-width:750px){
+    h1{
+        background-color: aqua;
+        opacity: .8;
+        
+    }
+}
+@media(min-width:750px)
+{
+    h1{
+        background: lightgrey;
+    }
+}

@@ -1,0 +1,46 @@
+body{
+    background: radial-gradient(gray,white);
+}
+.one{
+    border: 4px solid black;
+    width: 200px;
+    height: 400px;
+    padding: 0px 85px 0px 0px;
+    border-radius: 15px;
+    background-color: #ffbd4a;
+    margin: 119px 0px 0px 516px;
+}
+
+li{
+    width: 100%;
+    height: 40px;
+    list-style-type: none;
+    margin: 0px 0px 0px 35px;
+    font-family: 'Caveat', cursive;
+    
+}
+
+input:checked {
+    float: right;
+}
+
+level{
+    width: 90%;
+    height: 25px;
+}
+
+input[type="checkbox"]:checked + level{
+    text-decoration: line-through;
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+    height: 41px;
+    margin: 33px 0px 29px 37px;
+    background-color: aqua;
+    padding: 0px 0px 0px 2px;
+    border-radius: 10px;
+    opacity: .8;
+    font-family: 'Russo One', sans-serif;
+}

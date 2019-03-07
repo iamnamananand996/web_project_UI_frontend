@@ -1,0 +1,51 @@
+body{
+    padding-bottom: 50px;
+}
+
+.nav-justified{
+    background-color: lightgray;
+    border-radius: 0px;
+    border: 2px solid black;
+}
+
+.fix{
+    position: absolute;
+    
+}
+
+
+.carousel-inner>.item>img{
+    height: 500px;
+}
+.carousel-caption{
+    bottom: -14px;
+}
+
+.btn{
+    padding: 9px 18px;
+}
+
+
+.shift1{
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+.shift3{
+    padding-left: 50px;
+     padding-bottom: 40px;
+}
+
+h3{
+    background-color: #2cb1ff;
+    border-radius: 5px;
+    opacity: .8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+
+
+
+
+

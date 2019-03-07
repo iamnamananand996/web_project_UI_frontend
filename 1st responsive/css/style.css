@@ -1,0 +1,28 @@
+/*
+body{
+    background-image: url(../image/test.jpg);
+}
+*/
+
+h1{
+    color:black;
+    text-align: center;
+/*    border: 3px solid red;*/
+/*    width: 400px;*/
+    margin: 0 auto;
+    font-family: 'Joti One', cursive;
+}
+
+div{
+    background-color:aliceblue;
+}
+
+body{
+    background: url("../image/test.jpg")no-repeat center center fixed;
+    
+    background-size: cover;
+}
+
+i{
+    color: blue;
+}

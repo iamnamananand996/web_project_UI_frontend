@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+	<link rel="stylesheet" href="css/style.css" class="css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" class="css">
+	
+	<link rel="stylesheet" href="css/animate.css" class="css">
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+<!--     nevigation bar start here -->
+  <div class="wrapper">
+	<div class="container">
+	
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Pokemon</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#Team Member 1" class="nav-link js-scroll-trigger">About Us</a></li>
+        <li><a href="#">Pokemon Games</a></li>
+        <li><a href="#">Pokemon Catagories</a></li>
+        <li><a href="#"> <i class="fa fa-male" aria-hidden="true"></i> Trainer Section</a></li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-crosshairs" aria-hidden="true"></i> Location <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">India</a></li>
+            <li><a href="#">China</a></li>
+            <li><a href="#">Nepal</a></li>
+            <li><a href="#">London</a></li>
+            <li  class="dropdown-header"><h3>India</h3></li>
+            <li><a href="#">Banglore</a></li>
+            <li><a href="#">Mumbai</a></li>
+            <li><a href="#">Pune</a></li>
+            
+            
+          </ul>
+        </li>
+       
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-user color" aria-hidden="true"></i> Log In</a></li>
+       
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	</div>
+  </div>
+<!--         nevigation ar end here-->
+
+
+<!--    crousal starts from here-->
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/1.jpeg" alt="...">
+      <div class="carousel-caption">
+       
+       <h1>Food Factory</h1>
+       <li class="btn btn-warning "><a href="#First" class="js-scroll-trigger nav-link"></a>Read More &raquo;</li>
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="image/2.jpeg" alt="...">
+      <div class="carousel-caption">
+       
+       <h1>Football</h1>
+       <button class="btn btn-default">Read More</button>
+        
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="image/3.jpeg" alt="...">
+      <div class="carousel-caption">
+       
+       <h1>Wine</h1>
+       <button class="btn btn-success">Read More</button>
+        
+      </div>
+    </div>
+    ...
+  </div>
+  
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!--       creousal end here -->
+
+
+<!--       team section starts here -->
+
+<div class="container">
+<div class="row">
+  <div class="col-md-4"><img src="image/man1.jpeg" class="img-circle animated infinite bounce" id="Team Member 1" alt="">
+  <h2 >Team Member 1</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iure eos praesentium, inventore ullam! Officia assumenda, nemo cumque perspiciatis earum error distinctio nihil, quisquam atque, similique quia amet quibusdam culpa!</p>
+   <p class="btn btn-warning"><a href=""></a>Read More &raquo;</p>
+  </div>
+  <div class="col-md-4"><img src="image/man2.jpeg" class="img-circle animated infinite bounce" alt="">
+  <h2>Team Member 2</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iure eos praesentium, inventore ullam! Officia assumenda, nemo cumque perspiciatis earum error distinctio nihil, quisquam atque, similique quia amet quibusdam culpa!</p>
+  <p class="btn btn-success"><a href=""></a>Read More &raquo;</p>
+  </div>
+  <div class="col-md-4"><img src="image/man3.jpeg" class="img-circle animated infinite bounce" alt="">
+  <h2>Team Member 3</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iure eos praesentium, inventore ullam! Officia assumenda, nemo cumque perspiciatis earum error distinctio nihil, quisquam atque, similique quia amet quibusdam culpa!</p>
+   <p class="btn btn-danger"><a href=""></a>Read More &raquo;</p>
+  </div>
+</div>
+</div>
+
+<!--        team section ends here -->
+
+<hr class="divider">
+
+<!--         content start here -->
+
+<div class="row">
+  <div class="col-md-7 mickey">
+      <h1 id="First"> First <span class="text-muted">Phone</span> </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores consectetur nihil repellendus dolores veniam, at, placeat sint ullam voluptate hic consequuntur eum quia temporibus in voluptatem velit, optio commodi quibusdam maxime dolorem reiciendis dolorum. Temporibus hic, dolor necessitatibus minima ipsa.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam id dolores sapiente quas expedita ipsa odio voluptatum, eligendi libero nisi doloribus eius, sunt labore perferendis sequi voluptatibus necessitatibus, impedit magni! At ex veritatis ipsum odio. Expedita perferendis quam accusantium reprehenderit!</p>
+      <p class="btn btn-warning txt"><a href="" class="txt">Read More &raquo;</a></p>
+  </div>
+  <div class="col-md-5 mickey"><img src="image/phn1.jpeg" class="img-rounded img-responsive" alt=""></div>
+</div>
+
+<div class="row">
+  <div class="col-md-5 mickey">
+     <img src="image/phn2.jpeg" class="img-rounded img-responsive" alt="">
+      
+  </div>
+  <div class="col-md-7 mickey">
+      
+      <h1> Second <span class="text-muted">Phone</span> </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores consectetur nihil repellendus dolores veniam, at, placeat sint ullam voluptate hic consequuntur eum quia temporibus in voluptatem velit, optio commodi quibusdam maxime dolorem reiciendis dolorum. Temporibus hic, dolor necessitatibus minima ipsa.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus cumque veritatis ut quisquam quidem debitis, blanditiis, neque autem sunt minima in consequuntur velit quibusdam esse suscipit iure voluptatum enim soluta reiciendis nisi a nulla. Eius, modi accusantium inventore doloribus facere.</p>
+      <p class="btn btn-warning txt"><a href="" class="txt">Read More &raquo;</a></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-7 mickey">
+      <h1> Third <span class="text-muted">Phone</span> </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores consectetur nihil repellendus dolores veniam, at, placeat sint ullam voluptate hic consequuntur eum quia temporibus in voluptatem velit, optio commodi quibusdam maxime dolorem reiciendis dolorum. Temporibus hic, dolor necessitatibus minima ipsa.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum soluta illo omnis exercitationem vel excepturi et nemo ducimus blanditiis, consequatur iste. Itaque nihil culpa quidem repudiandae? Consectetur autem, sit recusandae. Praesentium hic, ullam quam aliquam expedita aut iusto assumenda?</p>
+      <p class="btn btn-warning txt"><a href="" class="txt">Read More &raquo;</a></p>
+  </div>
+  <div class="col-md-5 mickey"><img src="image/phn3.jpeg" class="img-rounded img-responsive" alt=""></div>
+</div>
+
+
+<!--     content end here-->
+
+
+<!--      footer starts from here -->
+
+<footer>
+      <p>
+       <h4 class="pull-right bg"><i class="fa fa-arrow-up" aria-hidden="true"></i><a href=""></a> Move Up</h4>
+       <h3 class="bg">&copy; Pokemon 2018 <a href="#">Term</a> &amp; <a href="#">Conditions</a></h3>
+       </p>
+</footer>
+
+<!--          footer end here -->
+
+    <script src="jquery/scroll.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>

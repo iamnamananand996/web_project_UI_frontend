@@ -1,0 +1,19 @@
+div{
+    
+    background-color: rgb(330,230,20);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Joti One', cursive;
+    border-radius: 25px;
+    opacity: .8;
+}
+button{
+    background:orange;
+    border-radius: 5px;
+}
+i{
+    font-size: 4em;
+}
+
+

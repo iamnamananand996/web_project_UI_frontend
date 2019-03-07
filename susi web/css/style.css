@@ -1,0 +1,53 @@
+body{
+    height: 100%;
+}
+video{
+    position: fixed;
+    top :50%;
+    left: 50%;
+    margin-top: -25%;
+    margin-left: -50%;
+    z-index: 1;
+}
+
+div{
+    position: fixed;
+    z-index: 2;
+    background-color: aqua;
+    width: 50%;
+    margin: 0 auto;
+    max-width: 720px;
+    margin-left: 250px;
+    text-align: center; 
+    opacity: 0.8;
+    border-radius: 20px;
+}
+h1{
+    background-color: chartreuse;
+    
+    text-align: center;
+    font-family: 'Macondo', cursive;
+}
+
+p{
+    background-color: darkgray;
+     font-family: 'Macondo', cursive;
+}
+
+a:link, a:visited{
+    display: inline-block;
+    padding: 12px 40px;
+    border: solid 4px hotpink;
+    color: hotpink;
+    text-decoration: none;
+}
+
+
+a:hover{
+    display: inline-block;
+    padding: 12px 40px;
+    border: solid 4px blue;
+    color: blue;
+    text-decoration: none;
+}
+

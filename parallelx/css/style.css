@@ -1,0 +1,26 @@
+div{
+    height: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+ 
+    text-align: center;
+    
+    
+    margin: 0;
+    
+}
+p{
+    background-color: hotpink;
+    text-align: center;
+    opacity: .8;
+}
+
+.mid {
+    width: 500px;
+  color: whitesmoke;
+  margin: 0 auto;
+  padding-top: 250px;
+}
